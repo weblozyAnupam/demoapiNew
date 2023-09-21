@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+     height: 300px;
+      display: flex;
+    gap:10px;
+     padding:12px; 
+     border:1px solid black
+}
+table,tr, td,tbody,thead{
+    border-style: none;
+    font-weight: 600;
+
+}
+table span{
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    color:#fff;
+}
+.red{
+  background-color: rgb(242, 90, 90);
+}
+.yellow
+{
+    background-color: rgb(240, 240, 97);
+}
+.blue{
+    background-color: rgb(83, 83, 245);
+}
+.d_blue{
+    background-color: rgb(21, 21, 210);
+}
+.total{
+background-color: transparent;
+border:2px solid black;
+border-radius: 4px;
+}
+.totalcheck{
+    border-color: rgb(21, 21, 210);
+    color:  rgb(21, 21, 210);
+}
+.passed{
+    border-color: rgb(83, 83, 245);
+color:rgb(83, 83, 245);
+}
+.failed{
+    border-color: rgb(240, 240, 97);
+    color:rgb(240, 240, 97);
+}
+.Noise{
+    border-color:rgb(179, 180, 181);
+    color:rgb(179, 180, 181);
+}
+
+.nav .nav-item button.active {
+    background-color: transparent;
+    color: var(--bs-danger) !important;
+  }
+  .nav .nav-item button.active::after {
+    content: "";
+    border-left: 4px solid var(--bs-danger);
+    height: 100%;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .vul_critical_box{
+    width: 64px;
+    height: 64px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f24747;
+  }
+ 
+
+ 
+  #myTabs {
+   width: 50rem;
+font-size: .8rem;
+  }
+  .nav-item  {
+  color: #fff;
+    background-color: rgb(191, 189, 189);
+    border-radius: 3px;
+    border-left: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-weight: 600;
+  }
+  .nav-item a{
+    color: #fff;
+    font-weight: 700;
+  }
+.nav .nav-link.active{
+    color: #2b437f;
+    background-color: rgb(172, 167, 167);
+}
