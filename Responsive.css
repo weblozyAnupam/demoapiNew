@@ -1,0 +1,136 @@
+@media (max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+        gap: 8px;
+        padding: 6px;
+    }
+
+    .card {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    table tr {
+        padding: 12px;
+    }
+
+    table span {
+        height: 15px;
+        width: 15px;
+        padding: 6px;
+        border-radius: 4px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+   
+    .nav .nav-item{
+       width: 150px;
+    }
+    .nav-item a{
+        font-size: 1.2rem;
+    }
+
+    .container-fluid .card {
+        width: 30rem;
+        height: 17rem;
+    }
+    .nav{
+        margin-top: 60px;
+    }
+    #myTabsContent{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:480px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 100%;
+        gap: 5px;
+        /* padding:2px;  */
+    }
+   #myTabsContent{
+        margin-top: 70px;
+    }
+
+    table tr {
+        padding: 8px;
+    }
+
+    table span {
+        height: 15px;
+        width: 15px;
+        padding: 6px;
+        border-radius: 4px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    #myTabs {
+        width: 20rem;
+        font-size: .6rem;
+    }
+
+    .nav .nav-item{
+        width: 120px;
+     }
+     .nav-item a{
+         font-size: 1rem;
+     }
+ 
+     .container-fluid .card {
+        width: 25rem;
+        height: 17rem;
+    }
+
+    .tab-content {
+        margin-top: 22px;
+        font-size: 10px;
+    }
+    
+
+    .nav{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:800px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 100%;
+        gap: 8px;
+        padding: 6px;
+    }
+    #myTabsContent{
+        margin-top: 70px;
+    }   
+
+    .card {
+        width: 30rem;
+        height: 17rem;
+
+    }
+    .nav{
+        margin-top: 60px;
+    }
+    .nav .nav-item{
+
+        width: 200px;
+     }
+     .nav-item a{
+         font-size: 1.5rem;
+     }
+ 
+     /* .container-fluid .card {
+        width:30rem;
+        height: 17rem;
+    } */
+}
